@@ -1,6 +1,6 @@
 # 📦 Data Structure Week 1 - OppoTrain Summer 2025
 
-This repository contains my Day 1 implementations for core data structures using **JavaScript**, as part of my internship training at **OppoTrain**.
+This repository contains implementations for core data structures using **JavaScript**, as part of my internship training at **OppoTrain**.
 
 ---
 
