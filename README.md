@@ -1,4 +1,4 @@
-# 📚 One-Week Data Structures Intensive Training
+# 📚 One-Week Data Structures Training
 
 This repository contains implementations of fundamental data structures in JavaScript as part of a one-week intensive training program with OppoTrain.
 
