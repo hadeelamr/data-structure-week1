@@ -21,16 +21,28 @@ This repository contains implementations of fundamental data structures in JavaS
 - Chose JavaScript as implementation language  
 - Set up GitHub repository  
 - Implemented:  
-  - Dynamic Array  
-  - Singly Linked List  
-  - Stack (using array and linked list)  
+  - **Dynamic Array**  
+    - Time: O(1) for push, O(n) for resizing  
+    - Space: O(n)  
+  - **Singly Linked List**  
+    - Time: O(1) for insert/delete at head, O(n) for search  
+    - Space: O(n)  
+  - **Stack (Array & Linked List)**  
+    - Time: O(1) for push/pop  
+    - Space: O(n)  
 
 ### ⚙️ Day 2  
 - Continued course  
 - Implemented:  
-  - Queue (using array and linked list)  
-  - Doubly Linked List  
-  - Circular Linked List  
+  - **Queue (Array & Linked List)**  
+    - Time: O(1) for enqueue/dequeue (linked list), O(n) with array shift  
+    - Space: O(n)  
+  - **Doubly Linked List**  
+    - Time: O(1) for insert/delete at head/tail  
+    - Space: O(n)  
+  - **Circular Linked List**  
+    - Time: O(1) for insert at head/tail  
+    - Space: O(n)  
 - Read Tech Interview Handbook - Behavioral Interview  
 
 ### 🌲 Day 3  
@@ -38,23 +50,41 @@ This repository contains implementations of fundamental data structures in JavaS
 - Scheduled mock behavioral interviews  
 - Prepared STAR responses for 5 common behavioral questions  
 - Implemented:  
-  - Binary Tree  
-  - Binary Search Tree  
-  - Tree Traversals (Inorder, Preorder, Postorder)  
+  - **Binary Tree**  
+    - Time: O(n) traversal  
+    - Space: O(h) where h is height  
+  - **Binary Search Tree**  
+    - Time: O(log n) average, O(n) worst  
+    - Space: O(n)  
+  - **Tree Traversals (Inorder, Preorder, Postorder)**  
+    - Time: O(n)  
+    - Space: O(h)  
 
 ### 🔐 Day 4  
 - Continued course  
 - Practiced behavioral interviews  
 - Implemented:  
-  - Hash Table (with collision handling)  
-  - Min Heap  
-  - Basic Graph (Adjacency List)  
+  - **Hash Table (with collision handling)**  
+    - Time: O(1) average, O(n) worst  
+    - Space: O(n)  
+  - **Min Heap**  
+    - Time: O(log n) for insert/delete  
+    - Space: O(n)  
+  - **Basic Graph (Adjacency List)**  
+    - Time: O(V + E)  
+    - Space: O(V + E)  
 
 ### 🧠 Day 5  
 - Implemented:  
-  - Trie  
-  - Union-Find (Disjoint Set)  
-  - Graph Traversals (BFS & DFS)  
+  - **Trie**  
+    - Time: O(L) for insert/search where L is word length  
+    - Space: O(n * L)  
+  - **Union-Find (Disjoint Set)**  
+    - Time: O(α(n)) with path compression  
+    - Space: O(n)  
+  - **Graph Traversals (BFS & DFS)**  
+    - Time: O(V + E)  
+    - Space: O(V)  
 - Reviewed and commented all code  
 - Completed README and complexity analysis  
 
@@ -62,7 +92,6 @@ This repository contains implementations of fundamental data structures in JavaS
 
 ## 📁 Folder Structure
 
-```bash
 data-structures-week-implementation/
 │
 ├── Day1/
